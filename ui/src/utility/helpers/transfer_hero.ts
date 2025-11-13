@@ -5,6 +5,6 @@ export const transferHero = (heroId: string, to: string) => {
 
   
   tx.transferObjects([tx.object(heroId)], to);
-
+//
   return tx;
 };

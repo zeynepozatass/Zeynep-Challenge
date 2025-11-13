@@ -10,6 +10,6 @@ export const battle = (packageId: string, heroId: string, arenaId: string) => {
       tx.object(arenaId)
     ],
   });
-  
+  //
   return tx;
 };

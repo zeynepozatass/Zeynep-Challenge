@@ -9,7 +9,7 @@ export const buyHero = (packageId: string, listHeroId: string, priceInSui: strin
 
   const [coin] = tx.splitCoins(tx.gas, [tx.pure.u64(priceInMist)]);
 
-  
+  //
   tx.moveCall({
     target: `${packageId}::marketplace::buy_hero`,
     arguments: [

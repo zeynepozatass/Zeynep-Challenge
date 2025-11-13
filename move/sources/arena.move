@@ -75,7 +75,7 @@ public fun battle(hero: Hero, arena: Arena, ctx: &mut TxContext) {
         });
     };
     object::delete(id);
-    
+    //
         
 }
 

@@ -7,7 +7,7 @@ export const createHero = (
   power: string,
 ) => {
   const tx = new Transaction();
-
+//
   tx.moveCall({
     target: `${packageId}::hero::create_hero`,
     arguments: [

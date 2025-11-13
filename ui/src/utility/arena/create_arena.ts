@@ -7,6 +7,6 @@ export const createArena = (packageId: string, heroId: string) => {
     target: `${packageId}::arena::create_arena`,
     arguments: [tx.object(heroId)],
   });
-  
+  //
   return tx;
 };

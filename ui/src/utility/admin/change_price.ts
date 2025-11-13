@@ -6,7 +6,7 @@ export const changePrice = (packageId: string, listHeroId: string, newPriceInSui
   
   const newPriceInMist = Number(newPriceInSui) * 1_000_000_000;
 
-  
+  //
   tx.moveCall({
     target: `${packageId}::marketplace::change_the_price`,
     arguments: [

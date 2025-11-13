@@ -6,7 +6,7 @@ export const delist = (
   adminCapId: string,
 ) => {
   const tx = new Transaction();
-
+//
   tx.moveCall({
     target: `${packageId}::marketplace::delist`,
     arguments: [
